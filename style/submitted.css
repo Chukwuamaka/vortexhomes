@@ -1,0 +1,15 @@
+#body {
+	height: 66vh;
+	padding-top: 27vh;
+}
+#page-header {
+	text-align: center;
+	color: #0f6a7b;
+	font-size: 160%;
+	font-weight: 600;
+}
+#thanks {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-size: 130%;
+}

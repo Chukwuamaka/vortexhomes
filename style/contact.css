@@ -1,0 +1,140 @@
+body {
+		overflow-x: hidden;
+		padding-left: 3%;
+		padding-right: 3%;
+		background-color: #f8f8f8;
+		font-size: 110%;
+		/*position: relative;*/
+	}
+h5 {
+	font-family: 'Roboto', sans-serif;
+}
+footer, form p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#navbar {
+	min-height: 80px;
+}
+/*#navbar {
+	background-color: #f8f8f8;
+	opacity:;
+}*/
+#logo {
+	height: 50px;
+	width: 100px;
+}
+#home, #who-we-are, #contact-us, #property {
+	color: #0f6a7b;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 17px;
+	margin-left: 17px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.active {
+	background-color: inherit !important;
+	border-bottom: 3px solid #63a25d;
+}
+#body {
+	padding-top: 80px;
+}
+#background-image {
+	background: url("../images/customer_service.jpg");
+	background-repeat-y: no-repeat;
+	margin-left: -3%;
+	margin-right: -3%;
+	/*height: 250px;*/
+}
+#page-header {
+	background-color: #63a25d;
+	opacity: 0.5;
+	color: #f8f8f8;
+	font-size: 150%;
+	font-weight: 500;
+	height: 230px;
+	padding-top: 175px;
+	text-align: center;
+}
+hr {
+	height: 2px;
+	margin-top: 3px;
+}
+form {
+	margin-top: 30px;
+	padding: 30px 25px;
+	border-radius: 3px;
+	background-color: white;
+}
+#form-header {
+	color: #0f6a7b;
+}
+.input {
+	margin-right: 20px;
+	margin-top: 4px;
+	width: 50%;
+	height: 41px;
+	border-radius: 3px;
+}
+textarea {
+	margin: 4px auto;
+	width: 50%;
+	height: 120px;
+	border-radius: 3px;
+}
+.cta-links {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #63a25d; /*green-like*/
+	color: white;
+	padding: 10px 25px;
+	border-radius: 5px;
+	font-weight: 500;
+}
+.cta-links:hover {
+	background-color: green;
+	color: white;
+	text-decoration: none;
+}
+footer {
+	margin: 30px -3% 0;
+	padding: 28px 0 15px;
+	text-align: center;
+	background-color: #2b2e32;
+	color: white;
+}
+.footer-links {
+	margin: 25px;
+	color: white;
+}
+.footer-links:hover, #author:hover {
+	color: #00aeef;
+	text-decoration: none;
+}
+#author {
+	color: white;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-nav {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.nav-item {
+		width: 100%;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.active  {
+		border-bottom: none;
+		background-color: white !important;
+	}
+}
+@media screen and (max-width: 576px) {
+	.input {
+		width: 83%;
+	}
+	textarea {
+		width: 83%;
+	}
+}
